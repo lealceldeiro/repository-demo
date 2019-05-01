@@ -13,6 +13,6 @@ public class TopicService {
 	
 	@PostConstruct
 	private void showTopicRepositoryInfo() {
-		System.out.println("*************TopicRepository autowired******************  \n ->" + topicRepository.getClass().getCanonicalName());
+		System.out.println("************TopicRepository autowired************  \n ->" + topicRepository.getClass().getCanonicalName());
 	}
 }
