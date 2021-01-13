@@ -7,7 +7,7 @@ Posted as part of this SO post: [How to fix “Field … required a bean of type
 Once started the application from your IDE you will see something like this printed in console:
 
 ```
-************TopicRepository autowired************  
+************ TopicRepository autowired ************  
  ->com.sun.proxy.$Proxy66
  ```
 That indicates the code in [`TopicService#showTopicRepositoryInfo`][2] is able to access an instance of `TopicRepository` autowired into
